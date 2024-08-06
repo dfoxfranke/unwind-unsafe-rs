@@ -1,0 +1,12 @@
+[package]
+name = "unwind-unsafe"
+version = "1.0.0"
+authors = ["Daniel Fox Franke <dfoxfranke@gmail.com>"]
+edition = "2018"
+description = "Zero-sized marker types which do not implement UnwindSafe or RefUnwindSafe"
+repository = "https://github.com/dfoxfranke/unwind-unsafe-rs"
+license = "MIT-0"
+keywords = ["unwind", "UnwindSafe", "RefUnwindSafe"]
+categories = ["no-std::no-alloc", "rust-patterns"]
+
+[dependencies]
